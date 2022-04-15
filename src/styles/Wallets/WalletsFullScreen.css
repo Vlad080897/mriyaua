@@ -1,0 +1,133 @@
+.wallets_wrapper {
+    background-image: url('/src/images/Wallets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 4px solid #001B56;
+    border-bottom: 4px solid #0A356E;
+    height: 600px;
+}
+
+.wallets_container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.wallets_title {
+    text-align: center;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #FFFF;
+    font-weight: 800;
+    text-shadow: -2px 0px #0A356E, -1px 2px #0A356E, 1px 0 #0A356E, 0 -1px #0A356E;
+    margin-top: 2rem;
+}
+
+.wallets_block_container {
+    display: flex;
+    flex-basis: 40%;
+    height: 450px;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.wallets_block {
+    flex-basis: 48%;
+    background-color: #FFFF;
+    border-radius: 25px;
+    box-shadow: -3px 0px #0A356E, -3px 3px #0A356E, 1px 0 #0A356E, 0 -1px #0A356E;
+}
+
+.wallets_block_title {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: #FDE512;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 3px solid #0A356E;
+}
+
+.wallets_block_title span {
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    align-self: center;
+    text-shadow: -2px 0px #A47400, -1px 2px #A47400, 1px 0 #A47400, 0 -1px #A47400;
+}
+
+.wallet_block {
+    height: 80%;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 17px;
+    flex-direction: column;
+
+}
+
+.wallet_block div {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.wallet_block>div {
+    margin-bottom: 15px;
+}
+
+.wallet_block_name_id {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
+.wallet_block_name_id span {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #0A356E;
+    text-shadow: none;
+
+}
+
+.wallet_block_name_id textarea {
+    width: 100%;
+    resize: none;
+    background-color: #DAE1EC;
+    border: 1px solid #CBD2DF;
+    border-radius: 15px;
+    padding: 15px 0 0 20px;
+    float: right;
+    font-size: 1.1rem;
+    color: #0A356E;
+}
+
+.wallet_block_name_id textarea:focus {
+    outline: none;
+}
+
+.copied {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    background-color: #75C74D;
+    border-radius: 50px;
+    right: 20px;
+    bottom: -100px;
+    overflow: hidden;
+    transition: all 0.4s;
+    color: #FFFF
+}
+
+.shown {
+    bottom: 50px;
+}

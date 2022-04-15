@@ -1,0 +1,66 @@
+.footer_wrapper {
+    padding: 2rem 0;
+    border-top: 2px solid grey;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer_container div {
+    flex-basis: 20%;
+}
+
+.social_media_footer {
+    box-sizing: border-box;
+    justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+
+}
+
+.donate_btn_footer {
+    width: 170px;
+    height: 45px;
+    border-radius: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #FDE512;
+    border-color: #A47400;
+    box-shadow: -1px 3px #A47400, 0 1px #A47400, 1px 0 #A47400, 0 -1px #A47400;
+    font-size: 1rem;
+    border-image: none;
+    border-width: 0;
+}
+
+.yellow_svg {
+    display: none;
+}
+
+.social_media_footer li:hover img:nth-child(1) {
+    display: none;
+}
+
+
+.social_media_footer li:hover .yellow_svg {
+    display: block;
+}
+
+.donate_btn_footer:active {
+    box-shadow: -1px 0px #A47400, 0 1px #A47400, 1px 0 #A47400, 0px -1px #A47400;
+}
+
+.basis {
+    flex-basis: 35% !important;
+}
+
+.justify {
+    text-align: end;
+}

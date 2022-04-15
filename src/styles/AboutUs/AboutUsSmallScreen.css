@@ -1,0 +1,30 @@
+.mobile_about_us_container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mobile_about_us_container .mobile_about_us_title {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #318BFF;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mobile_about_us_info {
+    display: flex;
+    justify-content: center;
+    color: #001B56;
+    text-align: justify;
+}
+.mobile_about_us_info span {
+    display: contents;
+    font-weight: 800;
+}
+
+.mobile_about_us_container img {
+    width: 100%;
+}

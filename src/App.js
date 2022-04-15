@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { Redirect } from 'react-router'
+import { Routes, Route, Link } from 'react-router-dom';
+import EnglishVersion from './components/English/English';
+import UkrainianVersion from './components/Ukrainian/Ukrainian';
 import './App.css';
 
+
 function App() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<UkrainianVersion />} />
+        <Route path='/en' element={<EnglishVersion />} />
+      </Routes>
     </div>
   );
 }

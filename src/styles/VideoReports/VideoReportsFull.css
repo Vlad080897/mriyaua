@@ -1,0 +1,46 @@
+.video_reports_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.video_reports_title {
+    display: inline-block;
+    color: #318BFF;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.plyr {
+    background: none !important;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.plyr__video-wrapper {
+    border-radius: 25px;
+    background: none;
+    box-shadow: -6px 2px black, 0 1px black, 1px 0 black, -6px 4px black;
+    transition: all 0.2s;
+}
+
+.plyr__video-wrapper:hover {
+    padding-top: 1px;
+    padding-right: 3px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.plyr__controls {
+    background: none !important;
+    right: -11px !important;
+    bottom: 16px !important;
+}
+
+.carosuel {
+    margin-right: 10px;
+}
